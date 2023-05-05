@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nathaniel Gomez</title>
+    <title>UNOCUTIE</title>
     <style>
         .main-con{
             margin: auto;
-            background-color: #6a93cb;
-            background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+            top:100px;
+            background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
             width: 300px;
             height: 300px;
             display: flex;
             position: relative;
         }
         .title{
-            color:rgb(255, 255, 255);
+            color:rgb(7, 7, 7);
             position: absolute;
             left: 105px;
             top: 100px;
-            background-color: rgb(29, 27, 27);
+            background-color: rgba(148,187,233,1);
             
         }
         .container{
@@ -32,6 +32,21 @@
             color: rgb(5, 5, 5);
             text-decoration: none;
         }
+        .btn {
+            margin-left: -10px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background: linear-gradient(90deg, var(--c1, #84fab0), var(--c2, #8fd3f4) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+            color: white;
+            text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+        }
+        .btn:hover{
+            background: rgb(148,187,233);
+            background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+        }
         
     </style>
 </head>
@@ -39,8 +54,9 @@
     <div class="main-con">
         <div class="title">Final Tasks</div>
         <div class="container">
-        <div><a href="FinalLabTask1.html">Final Lab Task 1</a></div>
-        <div><a href="FinalLabTask2.html">Final Lab Task 2</a></div>
+        <div><button class="btn draw-border"><a href="FinalLabTask1.html">Final Lab Task 1</a></button></div>
+        <br>
+        <div><button class="btn draw-border"><a href="FinalLabTask2.html">Final Lab Task 2</a></button></div>
         </div>
     </div>
 </body>
